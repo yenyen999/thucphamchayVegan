@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="thanhtoan.css">
+</head>
+<body>
+    <article >
+            <section class="payment">
+                <div class="containers">
+                    <div class="payment-content row">
+                        <div class="payment-content-left">
+                            <div class="payment-content-left-method-delivery">
+                                <p style="font-weight: bold;">Phương thức giao hàng</p>
+                                <div class="payment-content-left-method-delivery-item">
+                                    <input checked type="radio">
+                                    <label for="">Giao hàng chuyển phát nhanh</label>
+                                </div>
+                            </div>
+                            <div class="payment-content-left-method-payment">
+                                <p style="font-weight: bold;">Phương thức thanh toán</p>
+                                <p>Mọi giao dich đều được bảo mật và mã hóa. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại</p>
+                                <div class="payment-content-left-payment-item">
+                                    <input name="method-payment" type="radio">
+                                    <label for="">Thanh toán bằng thẻ tính dụng(Onepay)</label>
+                                </div>
+                                <div class="payment-content-left-payment-item-img">
+                                    <img src="album/images.png" alt="">
+                                </div>
+                                <div class="payment-content-left-payment-item">
+                                    <input name="method-payment" type="radio">
+                                    <label for="">Thanh toán bầng thẻ ATM(Onepay)</label>
+                                </div>
+                                <div class="payment-content-left-payment-item-img">
+                                    <img src="album/theatm.jpg" alt="">
+                                </div>
+                                <div class="payment-content-left-payment-item">
+                                    <input name="method-payment" type="radio">
+                                    <label for="">Thanh toán Momo</label>
+                                </div>
+                                <div class="payment-content-left-payment-item-img">
+                                    <img src="album/momo.png" alt="">
+                                </div>
+                                <div class="payment-content-left-payment-item">
+                                    <input name="method-payment" type="radio">
+                                    <label for="">Thu tiền tận nơi</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div>
+                    <legend style="text-align: center;"><b>Thông tin cá nhân </b></legend>
+                        <table>
+                            <tr>
+                                <td>Họ và tên:</td>
+                                <td><input type="text" size="20" ></td>
+                            </tr>
+                            <tr>
+                                    <td>Ngày sinh:
+                                    <select name="Ngay">
+                                        <option value="01" selected>01</option>
+                                        <option value="02" selected>02</option>
+                                        <option value="02" selected>03</option>
+                                        <option value="02" selected>04</option>
+                                        <option value="02" selected>05</option>
+                                        <option value="02" selected>06</option>
+                                        <option value="02" selected>07</option>
+                                        <option value="02" selected>08</option>
+                                        <option value="02" selected>09</option>
+                                        <option value="02" selected>10</option>
+                                        <option value="02" selected>11</option>
+                                        <option value="02" selected>12</option>
+                                        <option value="02" selected>13</option>
+                                        <option value="02" selected>14</option>
+                                        <option value="02" selected>15</option>
+                                        <option value="02" selected>16</option>
+                                        <option value="02" selected>17</option>
+                                        <option value="02" selected>18</option>
+                                        <option value="02" selected>19</option>
+                                        <option value="02" selected>20</option>
+                                        <option value="02" selected>21</option>
+                                        <option value="02" selected>22</option>
+                                        <option value="02" selected>23</option>
+                                        <option value="02" selected>24</option>
+                                        <option value="02" selected>25</option>
+                                        <option value="02" selected>26</option>
+                                        <option value="02" selected>27</option>
+                                        <option value="02" selected>28</option>
+                                        <option value="02" selected>29</option>
+                                        <option value="02" selected>30</option>
+                                        <option value="02" selected>31</option>
+                                    </select>
+                                    <select name="Thang">
+                                        <option value="01" selected>01</option>
+                                        <option value="02" selected>02</option>
+                                        <option value="02" selected>03</option>
+                                        <option value="02" selected>04</option>
+                                        <option value="02" selected>05</option>
+                                        <option value="02" selected>06</option>
+                                        <option value="02" selected>07</option>
+                                        <option value="02" selected>08</option>
+                                        <option value="02" selected>09</option>
+                                        <option value="02" selected>10</option>
+                                        <option value="02" selected>11</option>
+                                        <option value="02" selected>12</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Năm sinh<input type="text" size="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giới tính:</td>
+                                <td><input type="radio" name="RaGioitinh" value="Nam" checked >Nam 
+                                    <input type="radio" name="RaGioitinh" value="Nữ" checked >Nữ</td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ:</td>
+                                <td><textarea>
+                                    
+                                </textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Điện thoại:</td>
+                                <td><input type="tel" ></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email" required ></td>
+                            </tr>
+
+                        </table>
+                    </fieldset>
+                </div>
+                <div class="payment-content-right-payment">
+                    <button class="order"><a href="index1.html">Thanh Toán</a> </button>
+                </div>
+            </aside>
+    </article>
+    <script type="text/javascript">
+        var order = document.getElementsByClassName("order")[0]
+        order.onclick = function () {
+          alert("Cảm ơn bạn đã thanh toán đơn hàng. Bộ phận nhận đơn sẽ liên hệ xác nhận đơn hàng sớm nhất cho quý khách.")
+        }
+    </script>
+</body>
+</html>
